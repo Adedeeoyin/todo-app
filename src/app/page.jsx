@@ -25,7 +25,7 @@ export default function Home() {
   }
   return (
     <>
-      <div className={`relative flex items-center gap-4 w-full h-12 rounded-lg border ${lightMode?'bg-white border-borderB':'bg-choice5 border-choice5 text-choice2'} mt-8 mb-4 p-1`}>
+      <div className={`relative flex items-center gap-4 w-full h-12 rounded-lg border ${lightMode?'bg-white border-borderB text-choice4':'bg-choice5 border-choice5 text-choice2'} mt-8 mb-4 p-1`}>
         <div className="w-4 h-4 rounded-full border border-borderB"></div>
         <form onSubmit={addTodo} className="w-full">
           <input
